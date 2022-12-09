@@ -1,0 +1,33 @@
+.mealitem{
+    /* border: 2px solid red; */
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+
+}
+
+.price{
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+}
+.description{
+    font-style: italic;
+}
+
+.mealitem-left{
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    gap: 5px;
+
+
+}
